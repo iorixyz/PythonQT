@@ -19,7 +19,7 @@ class Ui_Dialog(object):
         self.label.setObjectName("label")
         self.progressBar = QtWidgets.QProgressBar(Dialog)
         self.progressBar.setGeometry(QtCore.QRect(130, 100, 231, 23))
-        self.progressBar.setProperty("value", 24)
+        self.progressBar.setProperty("value", 0)
         self.progressBar.setObjectName("progressBar")
 
         self.retranslateUi(Dialog)
